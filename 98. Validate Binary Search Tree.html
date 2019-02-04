@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 9.0.0 (457591)"/><meta name="altitude" content="34.41888046264648"/><meta name="author" content="MOON"/><meta name="created" content="2019-02-04 06:20:38 +0000"/><meta name="latitude" content="37.2640380859375"/><meta name="longitude" content="126.9964922446318"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2019-02-04 06:22:59 +0000"/><meta name="content-class" content="yinxiang.markdown"/><title>98. Validate Binary Search Tree</title></head><body><div style="font-size: 14px; margin: 0; padding: 0; width: 100%;"><p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><strong style="line-height: 160%; box-sizing: content-box; font-weight: 700;">Medium,<br/>
+Tree, DFS.</strong></p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Given a binary tree, determine if it is a valid binary search tree (BST).</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Assume a BST is defined as follows:</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">The left subtree of a node contains only nodes with keys less than the node's key.<br/>
+The right subtree of a node contains only nodes with keys greater than the node's key.<br/>
+Both the left and right subtrees must also be binary search trees.<br/>
+Example 1:</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">Input:
+    2
+   / \
+  1   3
+Output: true
+</code></pre>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Example 2:</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">    5
+   / \
+  1   4
+     / \
+    3   6
+Output: false
+Explanation: The input is: [5,1,4,null,null,3,6]. The root node's value
+             is 5 but its right child's value is 4.
+</code></pre>
+<h4 style="line-height: 160%; box-sizing: content-box; font-size: 20px; color: #333;">解法</h4>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">java</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">这道题需要用dfs，<br/>
+实现dfs有两种方法，<br/>
+一种是用queue构成，<br/>
+另一种是利用递归。</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;"><span style="color: #57a64a; font-style: italic; line-height: 160%; box-sizing: content-box;">/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */</span>
+<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">class</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">Solution</span> </span>{
+    <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">public</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">boolean</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">isValidBST</span><span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">(TreeNode root)</span> </span>{
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    
+    <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">public</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">boolean</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">isValidBST</span><span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">(TreeNode root, <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">long</span> minVal, <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">long</span> maxVal)</span> </span>{
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span> (root == <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>) <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">true</span>;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span> (root.val &gt;= maxVal || root.val &lt;= minVal) <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">false</span>;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> isValidBST(root.left, minVal, root.val) &amp;&amp; isValidBST(root.right, root.val, maxVal);
+    }
+}
+</code></pre>
+</div><center style="display:none !important;visibility:collapse !important;height:0 !important;white-space:nowrap;width:100%;overflow:hidden">**Medium%2C%0ATree%2C%20DFS.**%0A%0AGiven%20a%20binary%20tree%2C%20determine%20if%20it%20is%20a%20valid%20binary%20search%20tree%20(BST).%0A%0AAssume%20a%20BST%20is%20defined%20as%20follows%3A%0A%0AThe%20left%20subtree%20of%20a%20node%20contains%20only%20nodes%20with%20keys%20less%20than%20the%20node's%20key.%0AThe%20right%20subtree%20of%20a%20node%20contains%20only%20nodes%20with%20keys%20greater%20than%20the%20node's%20key.%0ABoth%20the%20left%20and%20right%20subtrees%20must%20also%20be%20binary%20search%20trees.%0AExample%201%3A%0A%60%60%60%0AInput%3A%0A%20%20%20%202%0A%20%20%20%2F%20%5C%0A%20%201%20%20%203%0AOutput%3A%20true%0A%60%60%60%0AExample%202%3A%0A%60%60%60%0A%20%20%20%205%0A%20%20%20%2F%20%5C%0A%20%201%20%20%204%0A%20%20%20%20%20%2F%20%5C%0A%20%20%20%203%20%20%206%0AOutput%3A%20false%0AExplanation%3A%20The%20input%20is%3A%20%5B5%2C1%2C4%2Cnull%2Cnull%2C3%2C6%5D.%20The%20root%20node's%20value%0A%20%20%20%20%20%20%20%20%20%20%20%20%20is%205%20but%20its%20right%20child's%20value%20is%204.%0A%60%60%60%0A%0A%0A%23%23%23%23%20%E8%A7%A3%E6%B3%95%0Ajava%0A%0A%E8%BF%99%E9%81%93%E9%A2%98%E9%9C%80%E8%A6%81%E7%94%A8dfs%EF%BC%8C%0A%E5%AE%9E%E7%8E%B0dfs%E6%9C%89%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95%EF%BC%8C%0A%E4%B8%80%E7%A7%8D%E6%98%AF%E7%94%A8queue%E6%9E%84%E6%88%90%EF%BC%8C%0A%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%98%AF%E5%88%A9%E7%94%A8%E9%80%92%E5%BD%92%E3%80%82%0A%0A%60%60%60java%0A%2F**%0A%20*%20Definition%20for%20a%20binary%20tree%20node.%0A%20*%20public%20class%20TreeNode%20%7B%0A%20*%20%20%20%20%20int%20val%3B%0A%20*%20%20%20%20%20TreeNode%20left%3B%0A%20*%20%20%20%20%20TreeNode%20right%3B%0A%20*%20%20%20%20%20TreeNode(int%20x)%20%7B%20val%20%3D%20x%3B%20%7D%0A%20*%20%7D%0A%20*%2F%0Aclass%20Solution%20%7B%0A%20%20%20%20public%20boolean%20isValidBST(TreeNode%20root)%20%7B%0A%20%20%20%20%20%20%20%20return%20isValidBST(root%2C%20Long.MIN_VALUE%2C%20Long.MAX_VALUE)%3B%0A%20%20%20%20%7D%0A%20%20%20%20%0A%20%20%20%20public%20boolean%20isValidBST(TreeNode%20root%2C%20long%20minVal%2C%20long%20maxVal)%20%7B%0A%20%20%20%20%20%20%20%20if%20(root%20%3D%3D%20null)%20return%20true%3B%0A%20%20%20%20%20%20%20%20if%20(root.val%20%3E%3D%20maxVal%20%7C%7C%20root.val%20%3C%3D%20minVal)%20return%20false%3B%0A%20%20%20%20%20%20%20%20return%20isValidBST(root.left%2C%20minVal%2C%20root.val)%20%26%26%20isValidBST(root.right%2C%20root.val%2C%20maxVal)%3B%0A%20%20%20%20%7D%0A%7D%0A%60%60%60</center></body></html>

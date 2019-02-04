@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 9.0.0 (457591)"/><meta name="altitude" content="33.65127182006836"/><meta name="author" content="MOON"/><meta name="created" content="2019-02-04 05:03:55 +0000"/><meta name="latitude" content="37.26406860351562"/><meta name="longitude" content="126.9964736260864"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2019-02-04 05:06:27 +0000"/><meta name="content-class" content="yinxiang.markdown"/><title>27. Remove Element</title></head><body><div style="font-size: 14px; margin: 0; padding: 0; width: 100%;"><p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><strong style="line-height: 160%; box-sizing: content-box; font-weight: 700;">Easy,<br/>
+Array, Two Pointers.</strong></p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Given an array nums and a value val, remove all instances of that value in-place and return the new length.</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">The order of elements can be changed. It doesn't matter what you leave beyond the new length.</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Example 1:</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">Given nums = [3,2,2,3], val = 3,
+
+Your function should return length = 2, with the first two elements of nums being 2.
+
+It doesn't matter what you leave beyond the returned length.
+</code></pre>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Example 2:</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">Given nums = [0,1,2,2,3,0,4,2], val = 2,
+
+Your function should return length = 5, with the first five elements of nums containing 0, 1, 3, 0, and 4.
+
+Note that the order of those five elements can be arbitrary.
+
+It doesn't matter what values are set beyond the returned length.
+</code></pre>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><strong style="line-height: 160%; box-sizing: content-box; font-weight: 700;">Clarification:</strong></p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Confused why the returned value is an integer but your answer is an array?</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Note that the input array is passed in by reference, which means modification to the input array will be known to the caller as well.</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Internally you can think of this:</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">// nums is passed in by reference. (i.e., without making a copy)
+int len = removeElement(nums, val);
+
+// any modification to nums in your function would be known by the caller.
+// using the length returned by your function, it prints the first len elements.
+for (int i = 0; i &lt; len; i++) {
+    print(nums[i]);
+}
+</code></pre>
+<h4 style="line-height: 160%; box-sizing: content-box; font-size: 20px; color: #333;">解法</h4>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">java<br/>
+该题只要想好例外的情况就好了。</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;"><span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">class</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">Solution</span> </span>{
+    <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">public</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">removeElement</span><span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">(<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span>[] nums, <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> val)</span> </span>{
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> len = nums.length;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> left = <span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">0</span>;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> right = len-<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">1</span>;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> count = <span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">0</span>;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(len==<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">0</span>) <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> <span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">0</span>;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(len==<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">1</span>){
+            <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(nums[<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">0</span>]==val) <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> <span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">0</span>;
+            <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> <span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">1</span>;
+        }
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">while</span>(left&lt;=right){
+            <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(nums[left]==val){
+                <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> tmp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = tmp;
+                right--;
+                count++;
+            }<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> left++;
+        }
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> len-count;
+    }
+}
+</code></pre>
+</div><center style="display:none !important;visibility:collapse !important;height:0 !important;white-space:nowrap;width:100%;overflow:hidden">**Easy%2C%0AArray%2C%20Two%20Pointers.**%0A%0AGiven%20an%20array%20nums%20and%20a%20value%20val%2C%20remove%20all%20instances%20of%20that%20value%20in-place%20and%20return%20the%20new%20length.%0A%0ADo%20not%20allocate%20extra%20space%20for%20another%20array%2C%20you%20must%20do%20this%20by%20modifying%20the%20input%20array%20in-place%20with%20O(1)%20extra%20memory.%0A%0AThe%20order%20of%20elements%20can%20be%20changed.%20It%20doesn't%20matter%20what%20you%20leave%20beyond%20the%20new%20length.%0A%0AExample%201%3A%0A%60%60%60%0AGiven%20nums%20%3D%20%5B3%2C2%2C2%2C3%5D%2C%20val%20%3D%203%2C%0A%0AYour%20function%20should%20return%20length%20%3D%202%2C%20with%20the%20first%20two%20elements%20of%20nums%20being%202.%0A%0AIt%20doesn't%20matter%20what%20you%20leave%20beyond%20the%20returned%20length.%0A%60%60%60%0AExample%202%3A%0A%60%60%60%0AGiven%20nums%20%3D%20%5B0%2C1%2C2%2C2%2C3%2C0%2C4%2C2%5D%2C%20val%20%3D%202%2C%0A%0AYour%20function%20should%20return%20length%20%3D%205%2C%20with%20the%20first%20five%20elements%20of%20nums%20containing%200%2C%201%2C%203%2C%200%2C%20and%204.%0A%0ANote%20that%20the%20order%20of%20those%20five%20elements%20can%20be%20arbitrary.%0A%0AIt%20doesn't%20matter%20what%20values%20are%20set%20beyond%20the%20returned%20length.%0A%60%60%60%0A**Clarification%3A**%0A%0AConfused%20why%20the%20returned%20value%20is%20an%20integer%20but%20your%20answer%20is%20an%20array%3F%0A%0ANote%20that%20the%20input%20array%20is%20passed%20in%20by%20reference%2C%20which%20means%20modification%20to%20the%20input%20array%20will%20be%20known%20to%20the%20caller%20as%20well.%0A%0AInternally%20you%20can%20think%20of%20this%3A%0A%60%60%60%0A%2F%2F%20nums%20is%20passed%20in%20by%20reference.%20(i.e.%2C%20without%20making%20a%20copy)%0Aint%20len%20%3D%20removeElement(nums%2C%20val)%3B%0A%0A%2F%2F%20any%20modification%20to%20nums%20in%20your%20function%20would%20be%20known%20by%20the%20caller.%0A%2F%2F%20using%20the%20length%20returned%20by%20your%20function%2C%20it%20prints%20the%20first%20len%20elements.%0Afor%20(int%20i%20%3D%200%3B%20i%20%3C%20len%3B%20i%2B%2B)%20%7B%0A%20%20%20%20print(nums%5Bi%5D)%3B%0A%7D%0A%60%60%60%0A%0A%23%23%23%23%20%E8%A7%A3%E6%B3%95%0Ajava%0A%E8%AF%A5%E9%A2%98%E5%8F%AA%E8%A6%81%E6%83%B3%E5%A5%BD%E4%BE%8B%E5%A4%96%E7%9A%84%E6%83%85%E5%86%B5%E5%B0%B1%E5%A5%BD%E4%BA%86%E3%80%82%0A%0A%0A%60%60%60java%0Aclass%20Solution%20%7B%0A%20%20%20%20public%20int%20removeElement(int%5B%5D%20nums%2C%20int%20val)%20%7B%0A%20%20%20%20%20%20%20%20int%20len%20%3D%20nums.length%3B%0A%20%20%20%20%20%20%20%20int%20left%20%3D%200%3B%0A%20%20%20%20%20%20%20%20int%20right%20%3D%20len-1%3B%0A%20%20%20%20%20%20%20%20int%20count%20%3D%200%3B%0A%20%20%20%20%20%20%20%20if(len%3D%3D0)%20return%200%3B%0A%20%20%20%20%20%20%20%20else%20if(len%3D%3D1)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if(nums%5B0%5D%3D%3Dval)%20return%200%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20else%20return%201%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20while(left%3C%3Dright)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if(nums%5Bleft%5D%3D%3Dval)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20int%20tmp%20%3D%20nums%5Bleft%5D%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20nums%5Bleft%5D%20%3D%20nums%5Bright%5D%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20nums%5Bright%5D%20%3D%20tmp%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20right--%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20count%2B%2B%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7Delse%20left%2B%2B%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20return%20len-count%3B%0A%20%20%20%20%7D%0A%7D%0A%60%60%60</center></body></html>

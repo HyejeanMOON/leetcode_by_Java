@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 9.0.0 (457591)"/><meta name="altitude" content="23.13999938964844"/><meta name="author" content="MOON"/><meta name="created" content="2019-01-22 05:25:40 +0000"/><meta name="latitude" content="35.6438121799201"/><meta name="longitude" content="139.7446441645691"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2019-01-22 05:27:12 +0000"/><meta name="content-class" content="yinxiang.markdown"/><title>303. Range Sum Query - Immutable</title></head><body><div style="font-size: 14px; margin: 0; padding: 0; width: 100%;"><p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><strong style="line-height: 160%; box-sizing: content-box; font-weight: 700;">Easy,<br/>
+Dynamic Programming.</strong></p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Share<br/>
+Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Example:</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">Given nums = [-2, 0, 3, -5, 2, -1]
+
+sumRange(0, 2) -&gt; 1
+sumRange(2, 5) -&gt; -1
+sumRange(0, 5) -&gt; -3
+</code></pre>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Note:<br/>
+You may assume that the array does not change.<br/>
+There are many calls to sumRange function.</p>
+<h4 style="line-height: 160%; box-sizing: content-box; font-size: 20px; color: #333;">解法一</h4>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">这道题标签应该是标错了，这道题跟动态规划没有任何关系。<br/>
+这只是一道超级简单的设计题。</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Java</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;"><span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">class</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">NumArray</span> </span>{
+
+    <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">private</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span>[] nums;
+    <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">public</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">NumArray</span><span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">(<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span>[] nums)</span> </span>{
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">this</span>.nums = nums;
+        
+    }
+    
+    <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">public</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">sumRange</span><span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">(<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> i, <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> j)</span> </span>{
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> sum=<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">0</span>;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">for</span>(<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">int</span> k=i;k&lt;=j;k++){
+            sum+=nums[k];
+        }
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> sum;
+    }
+}
+
+<span style="color: #57a64a; font-style: italic; line-height: 160%; box-sizing: content-box;">/**
+ * Your NumArray object will be instantiated and called as such:
+ * NumArray obj = new NumArray(nums);
+ * int param_1 = obj.sumRange(i,j);
+ */</span>
+</code></pre>
+</div><center style="display:none !important;visibility:collapse !important;height:0 !important;white-space:nowrap;width:100%;overflow:hidden">**Easy%2C%0ADynamic%20Programming.**%0A%0AShare%0AGiven%20an%20integer%20array%20nums%2C%20find%20the%20sum%20of%20the%20elements%20between%20indices%20i%20and%20j%20(i%20%E2%89%A4%20j)%2C%20inclusive.%0A%0AExample%3A%0A%60%60%60%0AGiven%20nums%20%3D%20%5B-2%2C%200%2C%203%2C%20-5%2C%202%2C%20-1%5D%0A%0AsumRange(0%2C%202)%20-%3E%201%0AsumRange(2%2C%205)%20-%3E%20-1%0AsumRange(0%2C%205)%20-%3E%20-3%0A%60%60%60%0ANote%3A%0AYou%20may%20assume%20that%20the%20array%20does%20not%20change.%0AThere%20are%20many%20calls%20to%20sumRange%20function.%0A%0A%23%23%23%23%20%E8%A7%A3%E6%B3%95%E4%B8%80%0A%0A%E8%BF%99%E9%81%93%E9%A2%98%E6%A0%87%E7%AD%BE%E5%BA%94%E8%AF%A5%E6%98%AF%E6%A0%87%E9%94%99%E4%BA%86%EF%BC%8C%E8%BF%99%E9%81%93%E9%A2%98%E8%B7%9F%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%B2%A1%E6%9C%89%E4%BB%BB%E4%BD%95%E5%85%B3%E7%B3%BB%E3%80%82%0A%E8%BF%99%E5%8F%AA%E6%98%AF%E4%B8%80%E9%81%93%E8%B6%85%E7%BA%A7%E7%AE%80%E5%8D%95%E7%9A%84%E8%AE%BE%E8%AE%A1%E9%A2%98%E3%80%82%0A%0AJava%0A%60%60%60java%0Aclass%20NumArray%20%7B%0A%0A%20%20%20%20private%20int%5B%5D%20nums%3B%0A%20%20%20%20public%20NumArray(int%5B%5D%20nums)%20%7B%0A%20%20%20%20%20%20%20%20this.nums%20%3D%20nums%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%7D%0A%20%20%20%20%0A%20%20%20%20public%20int%20sumRange(int%20i%2C%20int%20j)%20%7B%0A%20%20%20%20%20%20%20%20int%20sum%3D0%3B%0A%20%20%20%20%20%20%20%20for(int%20k%3Di%3Bk%3C%3Dj%3Bk%2B%2B)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20sum%2B%3Dnums%5Bk%5D%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20return%20sum%3B%0A%20%20%20%20%7D%0A%7D%0A%0A%2F**%0A%20*%20Your%20NumArray%20object%20will%20be%20instantiated%20and%20called%20as%20such%3A%0A%20*%20NumArray%20obj%20%3D%20new%20NumArray(nums)%3B%0A%20*%20int%20param_1%20%3D%20obj.sumRange(i%2Cj)%3B%0A%20*%2F%0A%60%60%60</center></body></html>

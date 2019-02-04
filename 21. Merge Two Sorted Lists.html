@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 9.0.0 (457591)"/><meta name="altitude" content="34.71168899536133"/><meta name="author" content="MOON"/><meta name="created" content="2019-02-04 04:49:10 +0000"/><meta name="latitude" content="37.26405413222054"/><meta name="longitude" content="126.9963338975438"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2019-02-04 04:52:58 +0000"/><meta name="content-class" content="yinxiang.markdown"/><title>21. Merge Two Sorted Lists</title></head><body><div style="font-size: 14px; margin: 0; padding: 0; width: 100%;"><p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;"><strong style="line-height: 160%; box-sizing: content-box; font-weight: 700;">Easy,<br/>
+LinkedList.</strong></p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">Example:</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;">Input: 1-&gt;2-&gt;4, 1-&gt;3-&gt;4
+Output: 1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4
+</code></pre>
+<h4 style="line-height: 160%; box-sizing: content-box; font-size: 20px; color: #333;">解法</h4>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">这道题是比较基础的linkedlist题。<br/>
+只要判断val的大小然后插入到res中就可以了。</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">follow up:<br/>
+降低空间复杂度和时间复杂度的方法是，不新设一个res，而是直接插入到l1或者l2中。<br/>
+这样就可以节省空间了。</p>
+<p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #333;">java</p>
+<pre style="line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; margin: 2px 0 8px; background-color: #f5f7f8;"><code style="display: block; overflow-x: auto; background: #1e1e1e; line-height: 160%; box-sizing: content-box; border: 0; border-radius: 0; letter-spacing: -.3px; padding: 18px; color: #f4f4f4; white-space: pre-wrap;"><span style="color: #57a64a; font-style: italic; line-height: 160%; box-sizing: content-box;">/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */</span>
+<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">class</span> <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">Solution</span> </span>{
+    <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;"><span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">public</span> ListNode <span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">mergeTwoLists</span><span style="color: #dcdcdc; line-height: 160%; box-sizing: content-box;">(ListNode l1, ListNode l2)</span> </span>{
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l1==<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span> &amp;&amp; l2!=<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>) <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> l2;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l1!=<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span> &amp;&amp; l2==<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>) <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> l1;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l1==<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span> &amp;&amp; l2==<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>) <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>;
+        ListNode tmp = <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">new</span> ListNode(-<span style="color: #b8d7a3; line-height: 160%; box-sizing: content-box;">1</span>);
+        ListNode res = tmp;
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">while</span>(l1!=<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span> || l2!=<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>){
+            <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l1!=<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span> &amp;&amp; l2!=<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>){
+                <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l1.val&gt;l2.val){
+                    tmp.next = <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">new</span> ListNode(l2.val);
+                    tmp=tmp.next;
+                    l2=l2.next;
+                }<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l2.val&gt;l1.val){
+                    tmp.next = <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">new</span> ListNode(l1.val);
+                    tmp=tmp.next;
+                    l1=l1.next;
+                }<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l1.val==l2.val){
+                    tmp.next = <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">new</span> ListNode(l1.val);
+                    tmp=tmp.next;
+                    tmp.next = <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">new</span> ListNode(l2.val);
+                    tmp=tmp.next;
+                    l1=l1.next;
+                    l2=l2.next;
+                }
+            }
+            <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l1==<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>){
+                tmp.next = <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">new</span> ListNode(l2.val);
+                tmp=tmp.next;
+                l2=l2.next;
+            }<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">else</span> <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">if</span>(l2==<span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">null</span>){
+                tmp.next = <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">new</span> ListNode(l1.val);
+                tmp=tmp.next;
+                l1=l1.next;
+            }
+        }
+        <span style="color: #569cd6; line-height: 160%; box-sizing: content-box;">return</span> res.next;
+    }
+}
+</code></pre>
+</div><center style="display:none !important;visibility:collapse !important;height:0 !important;white-space:nowrap;width:100%;overflow:hidden">**Easy%2C%0ALinkedList.**%0A%0AMerge%20two%20sorted%20linked%20lists%20and%20return%20it%20as%20a%20new%20list.%20The%20new%20list%20should%20be%20made%20by%20splicing%20together%20the%20nodes%20of%20the%20first%20two%20lists.%0A%0AExample%3A%0A%60%60%60%0AInput%3A%201-%3E2-%3E4%2C%201-%3E3-%3E4%0AOutput%3A%201-%3E1-%3E2-%3E3-%3E4-%3E4%0A%60%60%60%0A%0A%23%23%23%23%20%E8%A7%A3%E6%B3%95%0A%0A%E8%BF%99%E9%81%93%E9%A2%98%E6%98%AF%E6%AF%94%E8%BE%83%E5%9F%BA%E7%A1%80%E7%9A%84linkedlist%E9%A2%98%E3%80%82%0A%E5%8F%AA%E8%A6%81%E5%88%A4%E6%96%ADval%E7%9A%84%E5%A4%A7%E5%B0%8F%E7%84%B6%E5%90%8E%E6%8F%92%E5%85%A5%E5%88%B0res%E4%B8%AD%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BA%86%E3%80%82%0A%0Afollow%20up%3A%0A%E9%99%8D%E4%BD%8E%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%92%8C%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E7%9A%84%E6%96%B9%E6%B3%95%E6%98%AF%EF%BC%8C%E4%B8%8D%E6%96%B0%E8%AE%BE%E4%B8%80%E4%B8%AAres%EF%BC%8C%E8%80%8C%E6%98%AF%E7%9B%B4%E6%8E%A5%E6%8F%92%E5%85%A5%E5%88%B0l1%E6%88%96%E8%80%85l2%E4%B8%AD%E3%80%82%0A%E8%BF%99%E6%A0%B7%E5%B0%B1%E5%8F%AF%E4%BB%A5%E8%8A%82%E7%9C%81%E7%A9%BA%E9%97%B4%E4%BA%86%E3%80%82%0A%0Ajava%0A%60%60%60java%0A%2F**%0A%20*%20Definition%20for%20singly-linked%20list.%0A%20*%20public%20class%20ListNode%20%7B%0A%20*%20%20%20%20%20int%20val%3B%0A%20*%20%20%20%20%20ListNode%20next%3B%0A%20*%20%20%20%20%20ListNode(int%20x)%20%7B%20val%20%3D%20x%3B%20%7D%0A%20*%20%7D%0A%20*%2F%0Aclass%20Solution%20%7B%0A%20%20%20%20public%20ListNode%20mergeTwoLists(ListNode%20l1%2C%20ListNode%20l2)%20%7B%0A%20%20%20%20%20%20%20%20if(l1%3D%3Dnull%20%26%26%20l2!%3Dnull)%20return%20l2%3B%0A%20%20%20%20%20%20%20%20else%20if(l1!%3Dnull%20%26%26%20l2%3D%3Dnull)%20return%20l1%3B%0A%20%20%20%20%20%20%20%20else%20if(l1%3D%3Dnull%20%26%26%20l2%3D%3Dnull)%20return%20null%3B%0A%20%20%20%20%20%20%20%20ListNode%20tmp%20%3D%20new%20ListNode(-1)%3B%0A%20%20%20%20%20%20%20%20ListNode%20res%20%3D%20tmp%3B%0A%20%20%20%20%20%20%20%20while(l1!%3Dnull%20%7C%7C%20l2!%3Dnull)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20if(l1!%3Dnull%20%26%26%20l2!%3Dnull)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20if(l1.val%3El2.val)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp.next%20%3D%20new%20ListNode(l2.val)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp%3Dtmp.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20l2%3Dl2.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7Delse%20if(l2.val%3El1.val)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp.next%20%3D%20new%20ListNode(l1.val)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp%3Dtmp.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20l1%3Dl1.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7Delse%20if(l1.val%3D%3Dl2.val)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp.next%20%3D%20new%20ListNode(l1.val)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp%3Dtmp.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp.next%20%3D%20new%20ListNode(l2.val)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp%3Dtmp.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20l1%3Dl1.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20l2%3Dl2.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20else%20if(l1%3D%3Dnull)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp.next%20%3D%20new%20ListNode(l2.val)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp%3Dtmp.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20l2%3Dl2.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7Delse%20if(l2%3D%3Dnull)%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp.next%20%3D%20new%20ListNode(l1.val)%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20tmp%3Dtmp.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20l1%3Dl1.next%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20return%20res.next%3B%0A%20%20%20%20%7D%0A%7D%0A%60%60%60</center></body></html>
