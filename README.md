@@ -1,3 +1,3 @@
 # leetcode_by_Java
 
-There are awnser of Leetcode by Java.
+There are awnsers of Leetcode by Java.
