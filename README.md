@@ -13,7 +13,7 @@ https://github.com/HyejeanMOON/Scala-for-LeetCode
 [5. Longest Palindromic Substring](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/5.%20Longest%20Palindromic%20Substring.md)  
 [11. Container With Most Water](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/11.%20Container%20With%20Most%20Water.md)  
 [17. Letter Combinations of a Phone Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)  
-[15. 3Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/15.%203Sum.md) 
+[15. 3Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/15.%203Sum.md)  
 [20. Valid Parentheses](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/20.%20Valid%20Parentheses.md)  
 [21. Merge Two Sorted Lists](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/21.%20Merge%20Two%20Sorted%20Lists.md)   
 [24. Swap Nodes in Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/24.%20Swap%20Nodes%20in%20Pairs.md)    
