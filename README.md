@@ -1,6 +1,6 @@
 # leetcode_by_Java
 
-There are answers of Leetcode by Java.
+There are some answers of Leetcode by Java.
 
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
