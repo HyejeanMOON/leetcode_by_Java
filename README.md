@@ -50,7 +50,11 @@ https://github.com/HyejeanMOON/Scala-for-LeetCode
 [206. Reverse Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/206.%20Reverse%20Linked%20List.md)  
 [213. House Robber II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/213.%20House%20Robber%20II.md)  
 [225. Implement Stack using Queues](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/225.%20Implement%20Stack%20using%20Queues.md)  
+[232. Implement Queue using Stacks](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/232.%20Implement%20Queue%20using%20Stacks.md)   
+[225. Implement Stack using Queues](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/225.%20Implement%20Stack%20using%20Queues.md)  
+
 [237. Delete Node in a Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/237.%20Delete%20Node%20in%20a%20Linked%20List.md)  
+[239. Sliding Window Maximum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/239.%20Sliding%20Window%20Maximum.md)  
 
 ## 251~300
 [257. Binary Tree Paths](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/251~300/257.%20Binary%20Tree%20Paths.md)  
@@ -79,6 +83,7 @@ https://github.com/HyejeanMOON/Scala-for-LeetCode
 ## 651~700
 
 ## 701~750
+[703. Kth Largest Element in a Stream](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/701~750/703.%20Kth%20Largest%20Element%20in%20a%20Stream.md)  
 
 ## 751~800
 [796. Rotate String](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/796.%20Rotate%20String.md)  
