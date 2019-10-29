@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 66
+Total: 67
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -55,6 +55,7 @@ Total: 66
 [225. Implement Stack using Queues](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/225.%20Implement%20Stack%20using%20Queues.md)  
 [237. Delete Node in a Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/237.%20Delete%20Node%20in%20a%20Linked%20List.md)  
 [239. Sliding Window Maximum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/239.%20Sliding%20Window%20Maximum.md)  
+[242. Valid Anagram](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/242.%20Valid%20Anagram.md)
 
 ## 251~300
 [257. Binary Tree Paths](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/251~300/257.%20Binary%20Tree%20Paths.md)  
