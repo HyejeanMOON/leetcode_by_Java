@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 73
+Total: 74
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -23,6 +23,7 @@ Total: 73
 [26. Remove Duplicates from Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md)  
 [27. Remove Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/27.%20Remove%20Element.md)  
 [41. First Missing Positive](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/41.%20First%20Missing%20Positive.md)  
+[50. Pow(x, n)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/50.%20Pow(x%2C%20n).md)  
 
 ## 51~100
 [53. Maximum Subarray](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/53.%20Maximum%20Subarray.md)  
