@@ -5,19 +5,22 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 68
+Total: 73
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
 [2. Add Two Numbers](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/2.%20Add%20Two%20Numbers.md)  
 [4. Median of Two Sorted Arrays](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/4.%20Median%20of%20Two%20Sorted%20Arrays.md)  
 [5. Longest Palindromic Substring](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/5.%20Longest%20Palindromic%20Substring.md)  
+[7. Reverse Integer](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/7.%20Reverse%20Integer.md)  
 [11. Container With Most Water](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/11.%20Container%20With%20Most%20Water.md)  
-[17. Letter Combinations of a Phone Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)  
 [15. 3Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/15.%203Sum.md)  
+[17. Letter Combinations of a Phone Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)  
+[18. 4Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/18.%204Sum.md)  
 [20. Valid Parentheses](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/20.%20Valid%20Parentheses.md)  
 [21. Merge Two Sorted Lists](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/21.%20Merge%20Two%20Sorted%20Lists.md)   
 [24. Swap Nodes in Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/24.%20Swap%20Nodes%20in%20Pairs.md)    
+[26. Remove Duplicates from Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md)  
 [27. Remove Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/27.%20Remove%20Element.md)  
 [41. First Missing Positive](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/41.%20First%20Missing%20Positive.md)  
 
@@ -54,6 +57,8 @@ Total: 68
 [225. Implement Stack using Queues](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/225.%20Implement%20Stack%20using%20Queues.md)  
 [232. Implement Queue using Stacks](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/232.%20Implement%20Queue%20using%20Stacks.md)   
 [225. Implement Stack using Queues](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/225.%20Implement%20Stack%20using%20Queues.md)  
+[235. Lowest Common Ancestor of a Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)  
+[236. Lowest Common Ancestor of a Binary Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)  
 [237. Delete Node in a Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/237.%20Delete%20Node%20in%20a%20Linked%20List.md)  
 [239. Sliding Window Maximum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/239.%20Sliding%20Window%20Maximum.md)  
 [242. Valid Anagram](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/242.%20Valid%20Anagram.md)
