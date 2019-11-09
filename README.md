@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 74
+Total: 78
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -22,6 +22,7 @@ Total: 74
 [24. Swap Nodes in Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/24.%20Swap%20Nodes%20in%20Pairs.md)    
 [26. Remove Duplicates from Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md)  
 [27. Remove Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/27.%20Remove%20Element.md)  
+[28. Implement strStr()](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/28.%20Implement%20strStr().md)  
 [41. First Missing Positive](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/41.%20First%20Missing%20Positive.md)  
 [50. Pow(x, n)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/50.%20Pow(x%2C%20n).md)  
 
@@ -48,6 +49,7 @@ Total: 74
 [124. Binary Tree Maximum Path Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)  
 [141. Linked List Cycle](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/141.%20Linked%20List%20Cycle.md)  
 ## 151~200
+[169. Majority Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/169.%20Majority%20Element.md)  
 [198. House Robber](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/198.%20House%20Robber.md)  
 
 ## 201~250
