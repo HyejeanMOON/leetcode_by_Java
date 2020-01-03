@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 78
+Total: 82
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -19,15 +19,19 @@ Total: 78
 [18. 4Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/18.%204Sum.md)  
 [20. Valid Parentheses](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/20.%20Valid%20Parentheses.md)  
 [21. Merge Two Sorted Lists](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/21.%20Merge%20Two%20Sorted%20Lists.md)   
+[22. Generate Parentheses](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/22.%20Generate%20Parentheses.md)  
 [24. Swap Nodes in Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/24.%20Swap%20Nodes%20in%20Pairs.md)    
 [26. Remove Duplicates from Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md)  
 [27. Remove Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/27.%20Remove%20Element.md)  
 [28. Implement strStr()](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/28.%20Implement%20strStr().md)  
+[36. Valid Sudoku](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/36.%20Valid%20Sudoku.md)  
+[37. Sudoku Solver](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/37.%20Sudoku%20Solver.md)  
 [41. First Missing Positive](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/41.%20First%20Missing%20Positive.md)  
 [50. Pow(x, n)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/50.%20Pow(x%2C%20n).md)  
 
 ## 51~100
 [53. Maximum Subarray](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/53.%20Maximum%20Subarray.md)  
+[69. Sqrt(x)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/69.%20Sqrt(x).md)  
 [70. Climbing Stairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/70.%20Climbing%20Stairs.md)  
 [83. Remove Duplicates from Sorted List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/83.%20Remove%20Duplicates%20from%20Sorted%20List.md)  
 [96. Unique Binary Search Trees](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/96.%20Unique%20Binary%20Search%20Trees.md)  
