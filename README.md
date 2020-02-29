@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 82
+Total: 91
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -27,12 +27,17 @@ Total: 82
 [36. Valid Sudoku](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/36.%20Valid%20Sudoku.md)  
 [37. Sudoku Solver](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/37.%20Sudoku%20Solver.md)  
 [41. First Missing Positive](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/41.%20First%20Missing%20Positive.md)  
+[43. Multiply Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/43.%20Multiply%20Strings.md)  
+[48. Rotate Image](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/48.%20Rotate%20Image.md)  
 [50. Pow(x, n)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/50.%20Pow(x%2C%20n).md)  
 
 ## 51~100
 [53. Maximum Subarray](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/53.%20Maximum%20Subarray.md)  
+[60. Permutation Sequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/60.%20Permutation%20Sequence.md)  
+[61. Rotate List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/61.%20Rotate%20List.md)  
 [69. Sqrt(x)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/69.%20Sqrt(x).md)  
-[70. Climbing Stairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/70.%20Climbing%20Stairs.md)  
+[70. Climbing Stairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/70.%20Climbing%20Stairs.md) 
+[82. Remove Duplicates from Sorted List II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.md)  
 [83. Remove Duplicates from Sorted List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/83.%20Remove%20Duplicates%20from%20Sorted%20List.md)  
 [96. Unique Binary Search Trees](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/96.%20Unique%20Binary%20Search%20Trees.md)  
 [98. Validate Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/98.%20Validate%20Binary%20Search%20Tree.md)  
@@ -54,6 +59,7 @@ Total: 82
 [141. Linked List Cycle](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/141.%20Linked%20List%20Cycle.md)  
 ## 151~200
 [169. Majority Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/169.%20Majority%20Element.md)  
+[187. Repeated DNA Sequences](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/187.%20Repeated%20DNA%20Sequences.md)  
 [198. House Robber](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/198.%20House%20Robber.md)  
 
 ## 201~250
@@ -79,6 +85,7 @@ Total: 82
 [322. Coin Change](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/322.%20Coin%20Change.md)  
 
 ## 351~400
+[380. Insert Delete GetRandom O(1)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/351~400/380.%20Insert%20Delete%20GetRandom%20O(1).md)  
 [392. Is Subsequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/351~400/392.%20Is%20Subsequence.md)  
 
 ## 401~450
@@ -88,6 +95,8 @@ Total: 82
 
 ## 501~550
 [509. Fibonacci Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/501~550/509.%20Fibonacci%20Number.md)  
+[513. Find Bottom Left Tree Value](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/501~550/513.%20Find%20Bottom%20Left%20Tree%20Value.md)  
+[515. Find Largest Value in Each Tree Row](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/501~550/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.md)  
 
 ## 551~600
 
