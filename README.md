@@ -114,7 +114,7 @@ Total: 97
 ## 801~850
 
 ## 850~900
-[859. Buddy Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/859.%20Buddy%20Strings.md)
+[859. Buddy Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/859.%20Buddy%20Strings.md)  
 [876. Middle of the Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/876.%20Middle%20of%20the%20Linked%20List.md)  
 
 ## 901~950
