@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 91
+Total: 97
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -114,7 +114,7 @@ Total: 91
 ## 801~850
 
 ## 850~900
-[859. Buddy Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/859.%20Buddy%20Strings.md)
+[859. Buddy Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/859.%20Buddy%20Strings.md)  
 [876. Middle of the Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/876.%20Middle%20of%20the%20Linked%20List.md)  
 
 ## 901~950
@@ -135,3 +135,27 @@ Total: 91
 [1005. Maximize Sum Of Array After K Negations](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1005.%20Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)  
 [1012. Complement of Base 10 Integer](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1012.%20Complement%20of%20Base%2010%20Integer.md)  
 [1013. Pairs of Songs With Total Durations Divisible by 60](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1013.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md)  
+
+## 1051~1100
+
+
+## 1101~1150
+[1108. Defanging an IP Address](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1101~1150/1108.%20Defanging%20an%20IP%20Address.md)  
+
+## 1151~1200
+[1154. Day of the Year](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1151~1200/1154.%20Day%20of%20the%20Year.md)  
+
+
+## 1201~1250
+[1207. Unique Number of Occurrences](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1201~1250/1207.%20Unique%20Number%20of%20Occurrences.md)  
+[1232. Check If It Is a Straight Line](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1201~1250/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.md)  
+
+
+## 1251~1300
+[1295. Find Numbers with Even Number of Digits](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1251~1300/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.md)  
+
+
+## 1301~1350
+[1323. Maximum 69 Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1301~1350/1323.%20Maximum%2069%20Number.md)  
+
+
