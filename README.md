@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 97
+Total: 100
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -158,4 +158,9 @@ Total: 97
 ## 1301~1350
 [1323. Maximum 69 Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1301~1350/1323.%20Maximum%2069%20Number.md)  
 
+## 1351~1400
+[1351. Count Negative Numbers in a Sorted Matrix](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1351~1400/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.md)  
 
+## 1401~1450
+[1413. Minimum Value to Get Positive Step by Step Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1413.%20Minimum%20Value%20to%20Get%20Positive%20Step%20by%20Step%20Sum.md)  
+[1436. Destination City](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1436.%20Destination%20City.md)
