@@ -36,7 +36,7 @@ Total: 100
 [60. Permutation Sequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/60.%20Permutation%20Sequence.md)  
 [61. Rotate List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/61.%20Rotate%20List.md)  
 [69. Sqrt(x)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/69.%20Sqrt(x).md)  
-[70. Climbing Stairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/70.%20Climbing%20Stairs.md) 
+[70. Climbing Stairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/70.%20Climbing%20Stairs.md)  
 [82. Remove Duplicates from Sorted List II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.md)  
 [83. Remove Duplicates from Sorted List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/83.%20Remove%20Duplicates%20from%20Sorted%20List.md)  
 [96. Unique Binary Search Trees](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/96.%20Unique%20Binary%20Search%20Trees.md)  
