@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 100
+Total: 103
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -86,6 +86,7 @@ Total: 100
 
 ## 351~400
 [380. Insert Delete GetRandom O(1)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/351~400/380.%20Insert%20Delete%20GetRandom%20O(1).md)  
+[384. Shuffle an Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/351~400/384.%20Shuffle%20an%20Array.md)  
 [392. Is Subsequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/351~400/392.%20Is%20Subsequence.md)  
 
 ## 401~450
@@ -101,6 +102,7 @@ Total: 100
 ## 551~600
 
 ## 601~650
+[611. Valid Triangle Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/601~650/611.%20Valid%20Triangle%20Number.md)  
 [647. Palindromic Substrings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/601~650/647.%20Palindromic%20Substrings.md)  
 
 ## 651~700
@@ -163,4 +165,9 @@ Total: 100
 
 ## 1401~1450
 [1413. Minimum Value to Get Positive Step by Step Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1413.%20Minimum%20Value%20to%20Get%20Positive%20Step%20by%20Step%20Sum.md)  
-[1436. Destination City](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1436.%20Destination%20City.md)
+[1436. Destination City](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1436.%20Destination%20City.md)  
+
+## 1451~1500
+
+## 1501~1550
+[1512. Number of Good Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1501-1550/1512.%20Number%20of%20Good%20Pairs.md)  
