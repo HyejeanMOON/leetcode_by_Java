@@ -5,7 +5,7 @@ There are some answers of Leetcode by Java.
 Scala for Leetcode.  
 https://github.com/HyejeanMOON/Scala-for-LeetCode
 
-Total: 103
+Total: 133
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -13,7 +13,9 @@ Total: 103
 [4. Median of Two Sorted Arrays](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/4.%20Median%20of%20Two%20Sorted%20Arrays.md)  
 [5. Longest Palindromic Substring](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/5.%20Longest%20Palindromic%20Substring.md)  
 [7. Reverse Integer](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/7.%20Reverse%20Integer.md)  
-[11. Container With Most Water](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/11.%20Container%20With%20Most%20Water.md)  
+[8. String to Integer (atoi)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/8.%20String%20to%20Integer%20(atoi).md)  
+[11. Container With Most Water](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/11.%20Container%20With%20Most%20Water.md) 
+[13. Roman to Integer](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/13.%20Roman%20to%20Integer.md)  
 [15. 3Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/15.%203Sum.md)  
 [17. Letter Combinations of a Phone Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)  
 [18. 4Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/18.%204Sum.md)  
@@ -48,11 +50,14 @@ Total: 103
 [102. Binary Tree Level Order Traversal](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/102.%20Binary%20Tree%20Level%20Order%20Traversal.md)  
 [103. Binary Tree Zigzag Level Order Traversal](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.md)  
 [104. Maximum Depth of Binary Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/104.%20Maximum%20Depth%20of%20Binary%20Tree.md)  
+[105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.md)  
 [107. Binary Tree Level Order Traversal II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II.md)  
 [108. Convert Sorted Array to Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.md)  
+[109. Convert Sorted List to Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.md)  
 [111. Minimum Depth of Binary Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/111.%20Minimum%20Depth%20of%20Binary%20Tree.md)  
 [112. Path Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/112.%20Path%20Sum.md)  
 [113. Path Sum II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/113.%20Path%20Sum%20II.md)  
+[114. Flatten Binary Tree to Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)  
 [121. Best Time to Buy and Sell Stock](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)  
 [122. Best Time to Buy and Sell Stock II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md)  
 [124. Binary Tree Maximum Path Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)  
@@ -90,6 +95,7 @@ Total: 103
 [392. Is Subsequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/351~400/392.%20Is%20Subsequence.md)  
 
 ## 401~450
+[429. N-ary Tree Level Order Traversal](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/401~450/429.%20N-ary%20Tree%20Level%20Order%20Traversal.md)  
 
 ## 451~500
 [494. Target Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/451~500/494.%20Target%20Sum.md)  
@@ -111,12 +117,17 @@ Total: 103
 [703. Kth Largest Element in a Stream](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/701~750/703.%20Kth%20Largest%20Element%20in%20a%20Stream.md)  
 
 ## 751~800
+[791. Custom Sort String](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/791.%20Custom%20Sort%20String.md)  
 [796. Rotate String](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/796.%20Rotate%20String.md)  
 
 ## 801~850
 
 ## 850~900
+[852. Peak Index in a Mountain Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/852.%20Peak%20Index%20in%20a%20Mountain%20Array.md)  
 [859. Buddy Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/859.%20Buddy%20Strings.md)  
+[868. Binary Gap](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/868.%20Binary%20Gap.md)  
+[880. Decoded String at Index](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/880.%20Decoded%20String%20at%20Index.md)  
+[897. Increasing Order Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/897.%20Increasing%20Order%20Search%20Tree.md)  
 [876. Middle of the Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/876.%20Middle%20of%20the%20Linked%20List.md)  
 
 ## 901~950
@@ -126,6 +137,7 @@ Total: 103
 [925. Long Pressed Name](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/925.%20Long%20Pressed%20Name.md)  
 [931. Minimum Falling Path Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/931.%20Minimum%20Falling%20Path%20Sum.md)  
 [933. Number of Recent Calls](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/933.%20Number%20of%20Recent%20Calls.md)  
+[938. Range Sum of BST](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/938.%20Range%20Sum%20of%20BST.md)  
 [941. Valid Mountain Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/941.%20Valid%20Mountain%20Array.md)  
 [949. Largest Time for Given Digits](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/949.%20Largest%20Time%20for%20Given%20Digits.md)  
 
@@ -146,15 +158,20 @@ Total: 103
 
 ## 1151~1200
 [1154. Day of the Year](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1151~1200/1154.%20Day%20of%20the%20Year.md)  
+[1184. Distance Between Bus Stops](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1151~1200/1184.%20Distance%20Between%20Bus%20Stops.md)  
+[1189. Maximum Number of Balloons](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1151~1200/1189.%20Maximum%20Number%20of%20Balloons.md)  
+[1200. Minimum Absolute Difference](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1151~1200/1200.%20Minimum%20Absolute%20Difference.md)  
 
 
 ## 1201~1250
 [1207. Unique Number of Occurrences](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1201~1250/1207.%20Unique%20Number%20of%20Occurrences.md)  
+[1221. Split a String in Balanced Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1201~1250/1221.%20Split%20a%20String%20in%20Balanced%20Strings.md)  
 [1232. Check If It Is a Straight Line](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1201~1250/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.md)  
 
 
 ## 1251~1300
 [1295. Find Numbers with Even Number of Digits](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1251~1300/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.md)  
+[1296. Divide Array in Sets of K Consecutive Numbers](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1251~1300/1296.%20Divide%20Array%20in%20Sets%20of%20K%20Consecutive%20Numbers.md)  
 
 
 ## 1301~1350
@@ -171,3 +188,22 @@ Total: 103
 
 ## 1501~1550
 [1512. Number of Good Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1501-1550/1512.%20Number%20of%20Good%20Pairs.md)  
+
+## 1551~1600
+
+## 1601~1650
+[1609. Even Odd Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1601~1650/1609.%20Even%20Odd%20Tree.md)  
+[1636. Sort Array by Increasing Frequency](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1601~1650/1636.%20Sort%20Array%20by%20Increasing%20Frequency.md)  
+[1640. Check Array Formation Through Concatenation](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1601~1650/1640.%20Check%20Array%20Formation%20Through%20Concatenation.md)  
+[1646. Get Maximum in Generated Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1601~1650/1646.%20Get%20Maximum%20in%20Generated%20Array.md)  
+
+
+## 1651~1700
+[1664. Ways to Make a Fair Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1651~1700/1664.%20Ways%20to%20Make%20a%20Fair%20Array.md)  
+[1668. Maximum Repeating Substring](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1651~1700/1668.%20Maximum%20Repeating%20Substring.md)  
+[1678. Goal Parser Interpretation](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1651~1700/1678.%20Goal%20Parser%20Interpretation.md)  
+[1684. Count the Number of Consistent Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1651~1700/1684.%20Count%20the%20Number%20of%20Consistent%20Strings.md)  
+[1685. Sum of Absolute Differences in a Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1651~1700/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md)  
+
+## 1701~1750
+[1736. Latest Time by Replacing Hidden Digits](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1701~1750/1736.%20Latest%20Time%20by%20Replacing%20Hidden%20Digits.md)  
