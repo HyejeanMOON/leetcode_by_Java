@@ -2,9 +2,6 @@
 
 There are some answers of Leetcode by Java.
 
-Scala for Leetcode.  
-https://github.com/HyejeanMOON/Scala-for-LeetCode
-
 Total: 133
 
 ## 1~50
@@ -14,7 +11,7 @@ Total: 133
 [5. Longest Palindromic Substring](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/5.%20Longest%20Palindromic%20Substring.md)  
 [7. Reverse Integer](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/7.%20Reverse%20Integer.md)  
 [8. String to Integer (atoi)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/8.%20String%20to%20Integer%20(atoi).md)  
-[11. Container With Most Water](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/11.%20Container%20With%20Most%20Water.md) 
+[11. Container With Most Water](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/11.%20Container%20With%20Most%20Water.md)  
 [13. Roman to Integer](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/13.%20Roman%20to%20Integer.md)  
 [15. 3Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/15.%203Sum.md)  
 [17. Letter Combinations of a Phone Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)  
