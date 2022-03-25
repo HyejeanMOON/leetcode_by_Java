@@ -2,7 +2,7 @@
 
 There are some answers of Leetcode by Java.
 
-Total: 142
+Total: 155
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -41,14 +41,27 @@ Total: 142
 
 ## 51~100
 [53. Maximum Subarray](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/53.%20Maximum%20Subarray.md)  
+[55. Jump Game](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/55.%C2%A0Jump%20Game.md)  
+[56. Merge Intervals](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/56.%C2%A0Merge%20Intervals.md)  
+[57. Insert Interval](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/57.%C2%A0Insert%20Interval.md)  
 [60. Permutation Sequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/60.%20Permutation%20Sequence.md)  
 [61. Rotate List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/61.%20Rotate%20List.md)  
+[62. Unique Paths](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/62.%C2%A0Unique%20Paths.md)  
+[63. Unique Paths II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/63.%C2%A0Unique%20Paths%20II.md)  
+[67. Add Binary](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/67.%C2%A0Add%20Binary.md)  
 [69. Sqrt(x)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/69.%20Sqrt(x).md)  
 [70. Climbing Stairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/70.%20Climbing%20Stairs.md)  
+[72. Edit Distance](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/72.%C2%A0Edit%20Distance.md)  
+[76. Minimum Window Substring](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/76.%C2%A0Minimum%20Window%20Substring.md)  
+[77. Combinations](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/77.%C2%A0Combinations.md)  
+[78. Subsets](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/78.%C2%A0Subsets.md)  
+[79. Word Search](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/79.%C2%A0Word%20Search.md)  
 [82. Remove Duplicates from Sorted List II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.md)  
 [83. Remove Duplicates from Sorted List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/83.%20Remove%20Duplicates%20from%20Sorted%20List.md)  
+[90. Subsets II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/90.%C2%A0Subsets%20II.md)  
 [96. Unique Binary Search Trees](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/96.%20Unique%20Binary%20Search%20Trees.md)  
 [98. Validate Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/98.%20Validate%20Binary%20Search%20Tree.md)  
+[99. Recover Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/99.%C2%A0Recover%20Binary%20Search%20Tree.md)  
 [100. Same Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/51~100/100.%20Same%20Tree.md)  
 
 ## 101~150
