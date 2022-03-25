@@ -2,7 +2,7 @@
 
 There are some answers of Leetcode by Java.
 
-Total: 133
+Total: 142
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -16,17 +16,26 @@ Total: 133
 [15. 3Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/15.%203Sum.md)  
 [17. Letter Combinations of a Phone Number](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md)  
 [18. 4Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/18.%204Sum.md)  
+[19. Remove Nth Node From End of List.md](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/19.%C2%A0Remove%20Nth%20Node%20From%20End%20of%20List.md)  
 [20. Valid Parentheses](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/20.%20Valid%20Parentheses.md)  
 [21. Merge Two Sorted Lists](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/21.%20Merge%20Two%20Sorted%20Lists.md)   
 [22. Generate Parentheses](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/22.%20Generate%20Parentheses.md)  
-[24. Swap Nodes in Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/24.%20Swap%20Nodes%20in%20Pairs.md)    
+[23. Merge k Sorted Lists.md](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/23.%C2%A0Merge%20k%20Sorted%20Lists.md)   
+[24. Swap Nodes in Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/24.%20Swap%20Nodes%20in%20Pairs.md)  
+[25. Reverse Nodes in k-Group.md](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/25.%C2%A0Reverse%20Nodes%20in%20k-Group.md)  
 [26. Remove Duplicates from Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md)  
 [27. Remove Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/27.%20Remove%20Element.md)  
 [28. Implement strStr()](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/28.%20Implement%20strStr().md)  
+[34. Find First and Last Position of Element in Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/34.%C2%A0Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.md)  
 [36. Valid Sudoku](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/36.%20Valid%20Sudoku.md)  
-[37. Sudoku Solver](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/37.%20Sudoku%20Solver.md)  
+[37. Sudoku Solver](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/37.%20Sudoku%20Solver.md)
+[39. Combination Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/39.%C2%A0Combination%20Sum.md)  
+[40. Combination Sum II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/40.%C2%A0Combination%20Sum%20II%20.md)  
 [41. First Missing Positive](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/41.%20First%20Missing%20Positive.md)  
 [43. Multiply Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/43.%20Multiply%20Strings.md)  
+[45. Jump Game II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/45.%C2%A0Jump%20Game%20II.md)  
+[46. Permutations](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/46.%C2%A0Permutations.md)  
+[47. Permutations II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/47.%C2%A0Permutations%20II%20.md)  
 [48. Rotate Image](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/48.%20Rotate%20Image.md)  
 [50. Pow(x, n)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/50.%20Pow(x%2C%20n).md)  
 
