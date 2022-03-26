@@ -2,7 +2,7 @@
 
 There are some answers of Leetcode by Java.
 
-Total: 172
+Total: 181
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -98,6 +98,7 @@ Total: 172
 [203. Remove Linked List Elements](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/203.%20Remove%20Linked%20List%20Elements.md)  
 [206. Reverse Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/206.%20Reverse%20Linked%20List.md)  
 [207. Course Schedule](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/207.%C2%A0Course%20Schedule.md)  
+[208. Implement Trie (Prefix Tree)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/208.%C2%A0Implement%20Trie%20(Prefix%20Tree).md)  
 [210. Course Schedule II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/210.%C2%A0Course%20Schedule%20II.md)  
 [213. House Robber II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/213.%20House%20Robber%20II.md)  
 [215. Kth Largest Element in an Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/215.%20Kth%20Largest%20Element%20in%20an%20Array.md)  
@@ -120,8 +121,16 @@ Total: 172
 [283. Move Zeroes](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/251~300/283.%C2%A0Move%20Zeroes.md)  
 
 ## 301~350
+[300. Longest Increasing Subsequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/300.%20Longest%20Increasing%20Subsequence.md)  
 [303. Range Sum Query - Immutable](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/303.%20Range%20Sum%20Query%20-%20Immutable.md)  
+[304. Range Sum Query 2D - Immutable](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/304.%C2%A0Range%20Sum%20Query%202D%20-%20Immutable.md)  
+[309. Best Time to Buy and Sell Stock with Cooldown](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/309.%C2%A0Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.md)  
 [322. Coin Change](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/322.%20Coin%20Change.md)  
+[326. Power of Three](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/326.%C2%A0Power%20of%20Three.md)  
+[328. Odd Even Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/328.%C2%A0Odd%20Even%20Linked%20List.md)  
+[337. House Robber III](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/337.%C2%A0House%20Robber%20III.md)  
+[338. Counting Bits](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/338.%C2%A0Counting%20Bits.md)  
+[343. Integer Break](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/301~350/343.%C2%A0Integer%20Break.md)  
 
 ## 351~400
 [380. Insert Delete GetRandom O(1)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/351~400/380.%20Insert%20Delete%20GetRandom%20O(1).md)  
