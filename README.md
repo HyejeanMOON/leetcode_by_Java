@@ -2,7 +2,7 @@
 
 There are some answers of Leetcode by Java.
 
-Total: 196
+Total: 208
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -172,11 +172,18 @@ Total: 196
 [695. Max Area of Island](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/651~700/695.%C2%A0Max%20Area%20of%20Island.md)  
 
 ## 701~750
+[700. Search in a Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/701~750/700.%C2%A0Search%20in%20a%20Binary%20Search%20Tree.md)  
+[701. Insert into a Binary Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/701~750/701.%C2%A0Insert%20into%20a%20Binary%20Search%20Tree.md)  
 [703. Kth Largest Element in a Stream](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/701~750/703.%20Kth%20Largest%20Element%20in%20a%20Stream.md)  
+[714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/701~750/714.%C2%A0Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.md)  
+[743. Network Delay Time](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/701~750/743.%C2%A0Network%20Delay%20Time.md)  
 
 ## 751~800
+[752. Open the Lock](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/752.%C2%A0Open%20the%20Lock.md)  
+[785. Is Graph Bipartite](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/785.%C2%A0Is%20Graph%20Bipartite.md)  
 [791. Custom Sort String](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/791.%20Custom%20Sort%20String.md)  
 [796. Rotate String](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/796.%20Rotate%20String.md)  
+[797. All Paths From Source to Target](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/751~800/797.%C2%A0All%20Paths%20From%20Source%20to%20Target.md)  
 
 ## 801~850
 
@@ -185,11 +192,14 @@ Total: 196
 [859. Buddy Strings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/859.%20Buddy%20Strings.md)  
 [868. Binary Gap](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/868.%20Binary%20Gap.md)  
 [880. Decoded String at Index](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/880.%20Decoded%20String%20at%20Index.md)  
+[886. Possible Bipartition](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/886.%C2%A0Possible%20Bipartition.md)  
+[887. Super Egg Drop](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/887.%20Super%20Egg%20Drop.md)  
 [897. Increasing Order Search Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/897.%20Increasing%20Order%20Search%20Tree.md)  
 [876. Middle of the Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/851~900/876.%20Middle%20of%20the%20Linked%20List.md)  
 
 ## 901~950
 [907. Sum of Subarray Minimums](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/907.%20Sum%20of%20Subarray%20Minimums.md)  
+[912. Sort an Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/912.%C2%A0Sort%20an%20Array.md)  
 [917. Reverse Only Letters](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/917.%20Reverse%20Only%20Letters.md)  
 [922. Sort Array By Parity II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/922.%20Sort%20Array%20By%20Parity%20II.md)  
 [925. Long Pressed Name](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/901~950/925.%20Long%20Pressed%20Name.md)  
@@ -202,6 +212,8 @@ Total: 196
 ## 951~1000
 [965. Univalued Binary Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/951%EF%BD%9E1000/965.%20Univalued%20Binary%20Tree.md)  
 [977. Squares of a Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/951%EF%BD%9E1000/977.%20Squares%20of%20a%20Sorted%20Array.md)  
+[979. Distribute Coins in Binary Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/951%EF%BD%9E1000/979.%C2%A0Distribute%20Coins%20in%20Binary%20Tree.md)  
+[997. Find the Town Judge](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/951%EF%BD%9E1000/997.%C2%A0Find%20the%20Town%20Judge.md)  
 
 ## 1001~1050
 [1005. Maximize Sum Of Array After K Negations](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1005.%20Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)  
