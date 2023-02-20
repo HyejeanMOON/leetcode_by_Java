@@ -2,7 +2,7 @@
 
 There are some answers of Leetcode by Java.
 
-Total: 208
+Total: 220
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -219,12 +219,17 @@ Total: 208
 [1005. Maximize Sum Of Array After K Negations](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1005.%20Maximize%20Sum%20Of%20Array%20After%20K%20Negations.md)  
 [1012. Complement of Base 10 Integer](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1012.%20Complement%20of%20Base%2010%20Integer.md)  
 [1013. Pairs of Songs With Total Durations Divisible by 60](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1013.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.md)  
+[1020. Number of Enclaves](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1020.%C2%A0Number%20of%20Enclaves.md)  
+[1022. Sum of Root To Leaf Binary Numbers](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1022.%C2%A0Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.md)  
+[1038. Binary Search Tree to Greater Sum Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1001~1050/1038.%C2%A0Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.md)  
 
 ## 1051~1100
-
+[1094. Car Pooling](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1051~1100/1094.%C2%A0Car%20Pooling%20.md)  
 
 ## 1101~1150
 [1108. Defanging an IP Address](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1101~1150/1108.%20Defanging%20an%20IP%20Address.md)  
+[1109. Corporate Flight Bookings](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1101~1150/1109.%C2%A0Corporate%20Flight%20Bookings%20.md)  
+[1143. Longest Common Subsequence](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1101~1150/1143.%20Longest%20Common%20Subsequence.md)  
 
 ## 1151~1200
 [1154. Day of the Year](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1151~1200/1154.%20Day%20of%20the%20Year.md)  
@@ -240,6 +245,8 @@ Total: 208
 
 
 ## 1251~1300
+[1254. Number of Closed Islands](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1251~1300/1254.%C2%A0Number%20of%20Closed%20Islands.md)  
+[1277. Count Square Submatrices with All Ones](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1251~1300/1277.%C2%A0Count%20Square%20Submatrices%20with%20All%20Ones.md)  
 [1295. Find Numbers with Even Number of Digits](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1251~1300/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.md)  
 [1296. Divide Array in Sets of K Consecutive Numbers](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1251~1300/1296.%20Divide%20Array%20in%20Sets%20of%20K%20Consecutive%20Numbers.md)  
 
@@ -253,8 +260,10 @@ Total: 208
 ## 1401~1450
 [1413. Minimum Value to Get Positive Step by Step Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1413.%20Minimum%20Value%20to%20Get%20Positive%20Step%20by%20Step%20Sum.md)  
 [1436. Destination City](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1436.%20Destination%20City.md)  
+[1446. Consecutive Characters](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1401~1450/1446.%C2%A0Consecutive%20Characters.md)  
 
 ## 1451~1500
+[1472. Design Browser History](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1451~1500/1472.%C2%A0Design%20Browser%20History.md)  
 
 ## 1501~1550
 [1512. Number of Good Pairs](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1501-1550/1512.%20Number%20of%20Good%20Pairs.md)  
@@ -276,4 +285,17 @@ Total: 208
 [1685. Sum of Absolute Differences in a Sorted Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1651~1700/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md)  
 
 ## 1701~1750
+[1721. Swapping Nodes in a Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1701~1750/1721.%C2%A0Swapping%20Nodes%20in%20a%20Linked%20List.md)  
 [1736. Latest Time by Replacing Hidden Digits](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1701~1750/1736.%20Latest%20Time%20by%20Replacing%20Hidden%20Digits.md)  
+
+## 1751~1800
+
+
+## 1801~1850
+
+
+## 1851~1900
+
+
+## 1901~1950
+[1905. Count Sub Islands](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1901~1950/1905.%C2%A0Count%20Sub%20Islands.md)  
