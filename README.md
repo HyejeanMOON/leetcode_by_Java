@@ -2,7 +2,7 @@
 
 There are some answers of Leetcode by Java.
 
-Total: 224
+Total: 230
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -83,11 +83,17 @@ Total: 224
 [112. Path Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/112.%20Path%20Sum.md)  
 [113. Path Sum II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/113.%20Path%20Sum%20II.md)  
 [114. Flatten Binary Tree to Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.md)  
+[116. Populating Next Right Pointers in Each Node](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/116.%C2%A0Populating%20Next%20Right%20Pointers%20in%20Each%20Node.md)  
+[117. Populating Next Right Pointers in Each Node II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/117.%C2%A0Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.md)  
 [121. Best Time to Buy and Sell Stock](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/121.%C2%A0Best%20Time%20to%20Buy%20and%20Sell%20Stock.md)  
 [122. Best Time to Buy and Sell Stock II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/122.%C2%A0Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md)  
 [123. Best Time to Buy and Sell Stock III](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/123.%C2%A0Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md)  
-[124. Binary Tree Maximum Path Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)  
+[124. Binary Tree Maximum Path Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/124.%20Binary%20Tree%20Maximum%20Path%20Sum.md) 
+[127. Word Ladder](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/127.%C2%A0Word%20Ladder.md)  
 [130. Surrounded Regions](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/130.%C2%A0Surrounded%20Regions.md)  
+[134. Gas Station](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/134.%C2%A0Gas%20Station.md)  
+[139. Word Break](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/139.%C2%A0Word%20Break.md)  
+[140. Word Break II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/140.%C2%A0Word%20Break%20II.md)  
 [141. Linked List Cycle](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/141.%20Linked%20List%20Cycle.md)  
 [143. Reorder List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/143.%C2%A0Reorder%20List.md)  
 [145. Binary Tree Postorder Traversal](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/145.%C2%A0Binary%20Tree%20Postorder%20Traversal.md)  
