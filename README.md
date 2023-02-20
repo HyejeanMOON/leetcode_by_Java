@@ -2,7 +2,7 @@
 
 There are some answers of Leetcode by Java.
 
-Total: 230
+Total: 240
 
 ## 1~50
 [1. Two Sum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/1~50/1.%20Two%20Sum.md)  
@@ -98,11 +98,15 @@ Total: 230
 [143. Reorder List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/143.%C2%A0Reorder%20List.md)  
 [145. Binary Tree Postorder Traversal](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/101~150/145.%C2%A0Binary%20Tree%20Postorder%20Traversal.md)  
 ## 151~200
+[151. Reverse Words in a String](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/151.%C2%A0Reverse%20Words%20in%20a%20String.md)  
+[156. Binary Tree Upside Down](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/156.%20Binary%20Tree%20Upside%20Down.md)  
 [167. Two Sum II - Input Array Is Sorted](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/167.%C2%A0Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.md)  
 [169. Majority Element](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/169.%20Majority%20Element.md)  
 [173. Binary Search Tree Iterator](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/173.%C2%A0Binary%20Search%20Tree%20Iterator.md)  
+[174. Dungeon Game](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/174.%C2%A0Dungeon%20Game.md)  
 [187. Repeated DNA Sequences](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/187.%20Repeated%20DNA%20Sequences.md)  
 [188. Best Time to Buy and Sell Stock IV](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/188.%C2%A0Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.md)  
+[189. Rotate Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/189.%C2%A0Rotate%20Array.md)  
 [198. House Robber](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/151~200/198.%20House%20Robber.md)  
 
 ## 201~250
@@ -111,8 +115,13 @@ Total: 230
 [207. Course Schedule](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/207.%C2%A0Course%20Schedule.md)  
 [208. Implement Trie (Prefix Tree)](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/208.%C2%A0Implement%20Trie%20(Prefix%20Tree).md)  
 [210. Course Schedule II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/210.%C2%A0Course%20Schedule%20II.md)  
+[211. Design Add and Search Words Data Structure](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/211.%C2%A0Design%20Add%20and%20Search%20Words%20Data%20Structure.md)  
+[212. Word Search II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/212.%C2%A0Word%20Search%20II.md)  
 [213. House Robber II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/213.%20House%20Robber%20II.md)  
+[214. Shortest Palindrome](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/214.%C2%A0Shortest%20Palindrome.md)  
 [215. Kth Largest Element in an Array](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/215.%20Kth%20Largest%20Element%20in%20an%20Array.md)  
+[219. Contains Duplicate II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/219.%C2%A0Contains%20Duplicate%20II.md)  
+[222. Count Complete Tree Nodes](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/222.%C2%A0Count%20Complete%20Tree%20Nodes.md)  
 [225. Implement Stack using Queues](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/225.%20Implement%20Stack%20using%20Queues.md)  
 [226. Invert Binary Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/226.%C2%A0Invert%20Binary%20Tree.md)  
 [230. Kth Smallest Element in a BST](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/230.%C2%A0Kth%20Smallest%20Element%20in%20a%20BST.md)  
@@ -124,6 +133,7 @@ Total: 230
 [236. Lowest Common Ancestor of a Binary Tree](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)  
 [237. Delete Node in a Linked List](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/237.%20Delete%20Node%20in%20a%20Linked%20List.md)  
 [239. Sliding Window Maximum](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/239.%20Sliding%20Window%20Maximum.md)  
+[240. Search a 2D Matrix II](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/240.%C2%A0Search%20a%202D%20Matrix%20II.md)  
 [242. Valid Anagram](https://github.com/HyejeanMOON/leetcode_by_Java/blob/master/201~250/242.%20Valid%20Anagram.md)
 
 ## 251~300
