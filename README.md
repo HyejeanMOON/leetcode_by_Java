@@ -1,6 +1,6 @@
 # leetcode_by_Java
 
-There are some answers of Leetcode by Java.
+There are some answers for Leetcode by Java.
 
 Total: 240
 
